@@ -44,20 +44,20 @@ npm run createDB
 /apiv1/anuncios/tags
 ````
 
-### Filtrat por nombre
+### Filtrar por nombre
 
 ````
-/apiv1/anuncios?name=nombre_del_producto
+/apiv1/anuncios?nombre=nombre_del_producto
 ````
 
-### Filtrat por venta
+### Filtrar por venta
 Valores true o false. Ejemplo:
 
 ````
 /apiv1/anuncios?venta=false
 ````
 
-### Filtrat por tag:
+### Filtrar por tag:
 
 ````
 /apiv1/anuncios?tag=nombre_tag
@@ -103,6 +103,7 @@ Valores true o false. Ejemplo:
 
 
 ## Ayudas
+____
 
 ### Utilizar shell de mongo
 ```
