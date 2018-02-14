@@ -1560,48 +1560,48 @@
 		"iS": 78725,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/bici.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 53
 		},
 	"\/public\/images\/anuncios\/bici2.jpg": {
 		"ft": 16384,
 		"iS": 170546,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/bici2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 42
 		},
 	"\/public\/images\/anuncios\/ipad.jpg": {
 		"ft": 16384,
 		"iS": 43471,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/ipad.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 55
 		},
 	"\/public\/images\/anuncios\/iphone.png": {
 		"ft": 32768,
 		"iS": 11713,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/iphone.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 55
 		},
 	"\/public\/images\/anuncios\/iphone8.jpg": {
 		"ft": 16384,
 		"iS": 50677,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/iphone8.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1611,7 +1611,7 @@
 		"iS": 35324,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/iphonex.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1621,9 +1621,9 @@
 		"iS": 1273701,
 		"oA": 0,
 		"oAP": "\/public\/images\/anuncios\/nexus.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/public\/images\/logo.svg": {
