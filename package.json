@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "createDB": "node ./scripts/install_db.js",
+    "createDB": "node ./scripts/create_db.js",
     "dev": "cross-env DEBUG=nodeapi:* nodemon ./bin/www",
-    "eslint": "eslint .eslintrc.js"
+    "eslint": "eslint app.js ./models/ ./routes/ ./scripts/create_db.js "
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "cross-env": "^5.1.3",

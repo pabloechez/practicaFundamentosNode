@@ -12,21 +12,21 @@
             "nombre": "Nexus",
             "venta": false,
             "precio": 30.00,
-            "foto": "iphone.png",
+            "foto": "nexus.jpg",
             "tags": [ "lifestyle", "mobile"]
         },
         {
-            "nombre": "iPhone 40",
+            "nombre": "iPhone X",
             "venta": false,
-            "precio": 80.00,
-            "foto": "iphone.png",
+            "precio": 1300.00,
+            "foto": "iphonex.jpg",
             "tags": [ "lifestyle", "mobile"]
         },
         {
-            "nombre": "iPhone 40",
+            "nombre": "iPhone 8",
             "venta": false,
-            "precio": 20.00,
-            "foto": "iphone.png",
+            "precio": 800.00,
+            "foto": "iphone8.jpg",
             "tags": [ "lifestyle", "mobile"]
         },
         {
@@ -112,6 +112,21 @@
             "precio": 50.00,
             "foto": "iphone.png",
             "tags": [ "lifestyle", "motor"]
+        },
+        {
+            "nombre": "Bicicleta",
+            "venta": false,
+            "precio": 350.20,
+            "foto": "bici2.jpg",
+            "tags": [ "lifestyle", "motor"]
+        },
+
+        {
+            "nombre": "Ipad",
+            "venta": false,
+            "precio": 1000.99,
+            "foto": "ipad.jpg",
+            "tags": [ "motor"]
         }
 
     ]

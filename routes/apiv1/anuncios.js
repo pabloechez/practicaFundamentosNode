@@ -20,6 +20,7 @@ router.get('/', async(req, res, next)=>{
     
     
         const filtro = {};
+
     
         if (typeof name !== 'undefined') {
             filtro.nombre = new RegExp('^'+ name, "i") 
@@ -58,14 +59,13 @@ router.get('/', async(req, res, next)=>{
             }  
         }
     
-    
         const docs = await Anuncio.listar(filtro, skip, limit, sort, fields); // si usamos await, la función donde estoy
         
         res.json({ success: true, result: docs });  
-      } catch(err) {
+    } catch(err) {
         next(err);
         return;
-      }   
+    }   
 });
 
 router.get('/tags', async(req, res, next)=>{
@@ -80,24 +80,22 @@ router.get('/tags', async(req, res, next)=>{
       }   
 });
 
-router.post('/',(req, res, next)=>{
-
-    console.log(req.body);
-
-    const data= req.body;
-
+// Añadir un anuncio
+router.post('/', (req, res, next) => {
+  
+    const data = req.body;
+    
     // creamos documento de agente en memoria
-    const agente = new Agente(data);
-
+    const anuncio = new Anuncio(data);
+    
     // lo persistimos en la base de datos
-    agente.save((err,agenteGuardado)=>{
-        if(err){
-            next(err);
-            return;
-        }
-        res.json({succes:true, result: agenteGuardado})
+    anuncio.save((err, anuncioGuardado) => { // .save es método de instancia
+      if (err) {
+        next(err);
+        return;
+      }
+      res.json({ success: true, result: anuncioGuardado });
     });
-
-});
+  });
 
 module.exports = router;

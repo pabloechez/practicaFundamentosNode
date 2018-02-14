@@ -100,6 +100,9 @@ Valores true o false. Ejemplo:
 /apiv1/anuncios?start=numero&limit=numero
 ````
 
+### Insertar anuncio
+
+Enviamos por post los campos: nombre, venta, precio, foto y tags
 
 
 ## Ayudas

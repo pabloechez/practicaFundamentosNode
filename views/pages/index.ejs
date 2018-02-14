@@ -1,8 +1,28 @@
 <% layout('layout') -%>
 
+<section id="page__index">
+
+
+
 <h1><%= title %></h1>
 <p>Welcome to <%= title %></p>
+  <article>
 
-<% results.forEach(result=>{%>
-  <p><%=result.nombre%> <%= result.precio %></p>
-<%})%>
+  <% results.forEach(result=>{%>
+  
+      <div class="card">
+        <img src="/images/anuncios/<%= result.foto%>" alt="">
+        <div class="card__info">
+          <div class="price"><p><%= result.precio %>€</p></div>
+          <div class="name"><p><%=result.nombre%></p></div>
+          <div class="tags">
+            <span>Tags: </span>
+            <%=result.tags%>
+          </div>
+        </div>
+      </div>
+    
+  <%})%>
+  </article>
+
+</section>
